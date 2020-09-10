@@ -49,3 +49,12 @@ https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views
 Completed 200 OK in 1441ms (Views: 1433.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2020-09-10 16:13:54 +0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb__2531494674843717237_14560 at /home/darkgolly/sites/card_app/app/views/layouts/application.html.erb:8)
+Completed 200 OK in 2518ms (Views: 2493.3ms | ActiveRecord: 0.0ms)
+
+
