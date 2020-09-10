@@ -1,0 +1,51 @@
+Started GET "/" for 127.0.0.1 at 2020-09-10 15:47:09 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/darkgolly/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/darkgolly/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 15ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-10 15:47:24 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/darkgolly/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/darkgolly/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-10 15:52:57 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/darkgolly/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/darkgolly/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (1.4ms)
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-10 15:53:44 +0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 831ms (Views: 829.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-10 15:55:53 +0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-10 15:56:33 +0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-10 15:59:16 +0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb___2157657267155916273_14560 at /home/darkgolly/sites/card_app/app/views/layouts/application.html.erb:8)
+Completed 200 OK in 1441ms (Views: 1433.7ms | ActiveRecord: 0.0ms)
+
+
