@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
-    <title>CardApp</title>
+    <title>Медновости</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -24,9 +24,49 @@
           ' removeformat | help'
       });
     </script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Rubik:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
   <body>
+    <header>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-10 col-lg-3 d-flex align-items-center">
+                        <button class="menu-toggle" type="button" data-toggle="collapse" data-target="#navbar">
+                            <img src="" alt="">
+                        </button>
+                        <a href="#" class="logo">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-2 col-lg-9 d-flex align-items-center">
+                        <nav class="navbar navbar-expand-lg d-none d-lg-flex">
+                            <div class="collapse navbar-collapse" id="navbar">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Новости</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Энциклопедия </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Клиники москвы </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Блоги</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <button type="button">
+                            <img src="images/magnify.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
     <%= yield %>
   </body>
 </html>
