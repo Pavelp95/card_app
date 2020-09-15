@@ -1,3 +1,3 @@
 class Card < ApplicationRecord
-  has_one :CardPage
+  has_many :CardPage
 end
