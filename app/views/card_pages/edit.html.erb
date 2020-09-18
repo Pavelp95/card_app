@@ -1,3 +1,8 @@
 
 <%# <%= text_area_tag :content, "Hello, World!", :class => "tinymce" %>
  <%# это всё временно, надо будет сделать эту фичу для редактирования и создания  %>
+<h1>Изменить</h1>
+
+<%= form_for @card_page, url: card_page_path(@card_page), html: { method: :put } do |f| %>
+	<%= render 'form', f: f %>
+<% end %>
