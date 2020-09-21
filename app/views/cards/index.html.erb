@@ -15,10 +15,21 @@
     <% end %>
   </div>
 </div>
-
-
-
-
-
-
- <%# <%= render @cards %>  %>
+<div class="container">
+  <div class="row">
+    <% @card_pages.each do |cp| %>
+      <div class="card-deck">
+        <div class="card">
+          <div class="col-sm">
+            <div class="card-body">
+              <h5 class="card-title"><%= cp.title %></h5>
+              <h1 class="card-text"><%= cp.h1 %></h1>
+              <p class="card-text"><%= cp.body %></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+<%# <%= render @card_pages %>  %>
